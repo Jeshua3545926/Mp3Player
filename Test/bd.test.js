@@ -1,6 +1,6 @@
 // Test/bd.test.js
 const mysql = require('mysql2/promise');
-const https = require('https')
+
 
 describe('Conexión MySQL', () => {
   test('Debe conectarse correctamente a la base de datos', async () => {

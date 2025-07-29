@@ -1,0 +1,1 @@
+npm run test:file -- server.test.js
