@@ -2,19 +2,48 @@ import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 
+/**
+ * Pantalla de inicio de sesión.
+ * 
+ * Esta pantalla permite al usuario iniciar sesión con su cuenta.
+ * 
+ * @returns Un JSX que representa la pantalla de inicio de sesión.
+ */
 export default function App() {
   const [form, setForm] = useState({ username: '', password: '' });
 
+  /**
+   * Maneja el evento de crear una cuenta.
+   * 
+   * Este método actualmente no hace nada, solo muestra un mensaje
+   * en la consola y un alert que indica que pronto se podr  crear cuentas.
+   * 
+   * @todo Crear lógica para crear una cuenta de usuario
+   */
   const handleCreateAccount = () => {
     console.log("Proximamente se puede crear la cuenta")
+    alert("Proximamente se puede crear la cuenta")
   }
 
+ 
+
+  /**
+   * Actualiza el estado de formulario con el nuevo valor
+   * @param {string} name - nombre del campo a actualizar
+   * @param {string} value - nuevo valor para el campo
+   */
   const handleChange = (name, value) => {
     setForm({
       ...form,
       [name]: value,
     });
   };
+
+  /**
+   * Handles the login process by verifying the user's credentials.
+   * It logs the current form data to the console.
+   * This function is triggered when the login button is pressed.
+   */
 
   const handleLogin = () => {
     // Implement login logic here
