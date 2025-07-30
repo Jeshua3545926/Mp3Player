@@ -9,11 +9,6 @@ export default function App() {
    * seg n sea necesario.
    * @param {object} e - Evento de cambio en el formulario
    */
-  const [form, setForm] = useState({
-    email: '',
-    password: '',
-    username: ''
-  });
 
 
   const handleChange = (e) => {
@@ -27,6 +22,7 @@ export default function App() {
     <View style={styles.container}>
       {/*Login Screen */}
 
+      <Text>hola mundo</Text>
 
       <StatusBar style="auto" />
     </View>
