@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      {/*Login Screen */}
+   
 
       <Text>hola mundo</Text>
 
