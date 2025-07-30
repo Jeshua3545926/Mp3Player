@@ -11,7 +11,7 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-nativ
  */
 export default function App() {
   const [form, setForm] = useState({ username: '', password: '' });
-
+ 
   /**
    * Maneja el evento de crear una cuenta.
    * 
