@@ -7,6 +7,7 @@ export default function App() {
 
   const handleCreateAccount = () => {
     console.log("Proximamente se puede crear la cuenta")
+    alert("Proximamente se puede crear la cuenta")
   }
 
   const handleChange = (name, value) => {
