@@ -25,8 +25,6 @@ export default function App() {
     alert("Proximamente se puede crear la cuenta")
   }
 
- 
-
   /**
    * Actualiza el estado de formulario con el nuevo valor
    * @param {string} name - nombre del campo a actualizar
