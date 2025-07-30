@@ -6,5 +6,4 @@ const dbConfig = {
   database: 'mp3player'
 };
 
-export { dbConfig };
-
+module.exports = { dbConfig };
