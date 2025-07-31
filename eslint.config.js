@@ -4,7 +4,7 @@ module.exports = {
   rules: {
     'header/header': [2, 'block', [
       '!',
-      ' Copyright (c) 2025 MP3',
+      ' Copyright (c) 2025 MP3Player',
       ' Licencia MIT',
     ]],
   },
