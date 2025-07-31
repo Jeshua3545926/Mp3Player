@@ -11,7 +11,7 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-nativ
  */
 export default function App() {
   const [form, setForm] = useState({ username: '', password: '' });
- 
+
   /**
    * Maneja el evento de crear una cuenta.
    * 
@@ -37,6 +37,8 @@ export default function App() {
     });
   };
 
+  //21 novviembre 
+
   /**
    * Handles the login process by verifying the user's credentials.
    * It logs the current form data to the console.
@@ -52,13 +54,13 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.title}>Inicio de Sesión</Text>
       <TextInput
-        style={[styles.input, {color: '#fff'}]}
+        style={[styles.input, { color: '#fff' }]}
         placeholder="Usuario"
         value={form.username}
         onChangeText={(text) => handleChange('username', text)}
       />
       <TextInput
-        style={[styles.input, {color: '#fff'}]}
+        style={[styles.input, { color: '#fff' }]}
         placeholder="Contraseña"
         secureTextEntry
         value={form.password}
@@ -84,7 +86,7 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   title: {
-    color:'#fff',
+    color: '#fff',
     fontSize: 24,
     marginBottom: 24,
   },
@@ -115,7 +117,7 @@ const styles = StyleSheet.create({
     padding: 12,
     backgroundColor: '#ffffffff',
     borderRadius: 10,
-    color:'#000',
+    color: '#000',
     alignItems: 'center',
   }
 });
